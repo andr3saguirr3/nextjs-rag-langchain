@@ -2,6 +2,7 @@
   "name": "next-ai-prep",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,15 +10,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.3",
+    "@langchain/groq": "^0.1.2",
     "@langchain/openai": "^0.0.28",
     "@radix-ui/react-slot": "^1.0.2",
     "ai": "^3.0.23",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "dotenv": "^16.4.5",
     "langchain": "^0.1.36",
     "lucide-react": "^0.370.0",
     "next": "14.2.1",
     "openai": "^4.37.1",
+    "pdf-parse": "^1.1.1",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.2",

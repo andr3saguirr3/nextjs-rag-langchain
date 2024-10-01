@@ -69,7 +69,7 @@ export async function POST(req: Request) {
         const prompt = PromptTemplate.fromTemplate(TEMPLATE);
 
         const model = new ChatOpenAI({
-            apiKey: process.env.OPENAI_API_KEY!,
+            apiKey: process.env.GROQ_API_KEY!,
             model: 'gpt-3.5-turbo',
             temperature: 0,
             streaming: true,
